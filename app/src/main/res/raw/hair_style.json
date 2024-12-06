@@ -1,0 +1,92 @@
+{
+  "faces": [
+    {
+      "faceShape": "Oval",
+      "gender": "Female",
+      "image": {
+        "imageSatu": "https://content.latest-hairstyles.com/wp-content/uploads/short-bob-haircut-for-an-oval-faces.jpg",
+        "imageDua": "https://i.pinimg.com/originals/c9/35/2a/c9352a8cacbae4acadfab05233570309.jpg",
+        "imageTiga": "https://i.pinimg.com/736x/8d/a1/cf/8da1cf4f3381b7e6b465912c662a0c3b.jpg"
+      },
+      "nameHairStyle": {
+        "hairsatu": "Sleek bob Hair Style",
+        "hairdua": "Long Layered Hair Style",
+        "hairtiga": "Wavy bob Hair Style"
+      }
+    },
+    {
+      "faceShape": "Oval",
+      "gender": "Male",
+      "image": {
+        "imageSatu": "R.drawable.image_1",
+        "imageDua": "image2.jpg",
+        "imageTiga": "https://tailoringinhindi.com/wp-content/uploads/2023/02/Military-Haircut-for-Oval-Face.jpg"
+      },
+      "nameHairStyle": {
+        "hairsatu": "Hallo",
+        "hairdua": "hallo",
+        "hairtiga": "hallo"
+      }
+    },
+
+    {
+      "faceShape": "Round",
+      "gender": "Female",
+      "image": {
+        "imageSatu": "R.drawable.image_1",
+        "imageDua": "image2.jpg",
+        "imageTiga": "https://tailoringinhindi.com/wp-content/uploads/2023/02/Military-Haircut-for-Oval-Face.jpg"
+      },
+      "nameHairStyle": {
+        "hairsatu": "Hallo",
+        "hairdua": "hallo",
+        "hairtiga": "hallo"
+      }
+    },
+    {
+      "faceShape": "Round",
+      "gender": "Female",
+      "image": {
+        "imageSatu": "R.drawable.image_1",
+        "imageDua": "image2.jpg",
+        "imageTiga": "https://tailoringinhindi.com/wp-content/uploads/2023/02/Military-Haircut-for-Oval-Face.jpg"
+      },
+      "nameHairStyle": {
+        "hairsatu": "Hallo",
+        "hairdua": "hallo",
+        "hairtiga": "hallo"
+      }
+    },
+
+
+    {
+      "faceShape": "Square",
+      "gender": "Female",
+      "image": {
+        "imageSatu": "R.drawable.image_1",
+        "imageDua": "image2.jpg",
+        "imageTiga": "https://tailoringinhindi.com/wp-content/uploads/2023/02/Military-Haircut-for-Oval-Face.jpg"
+      },
+      "nameHairStyle": {
+        "hairsatu": "Hallo",
+        "hairdua": "hallo",
+        "hairtiga": "hallo"
+      }
+    },
+
+    {
+      "faceShape": "Square",
+      "gender": "Male",
+      "image": {
+        "imageSatu": "R.drawable.image_1",
+        "imageDua": "image2.jpg",
+        "imageTiga": "https://tailoringinhindi.com/wp-content/uploads/2023/02/Military-Haircut-for-Oval-Face.jpg"
+      },
+      "nameHairStyle": {
+        "hairsatu": "Hallo",
+        "hairdua": "hallo",
+        "hairtiga": "hallo"
+      }
+    }
+  ]
+}

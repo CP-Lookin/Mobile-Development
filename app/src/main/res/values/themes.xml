@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.LookinApp" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.SplashDemo" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowSplashScreenBackground">#6ebef5</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/img</item>
+        <item name="android:windowSplashScreenAnimationDuration">3000</item>
+        <item name="postSplashScreenTheme">@style/Theme.LookinApp</item>
+
+    </style>
+</resources>

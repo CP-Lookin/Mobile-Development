@@ -29,13 +29,13 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.compose.ui.zIndex
 import androidx.core.content.ContextCompat
 import coil.compose.rememberImagePainter
 import com.example.lookinapp.R
 import com.example.lookinapp.ResultActivity
 import com.example.lookinapp.api.ApiConfig
 import com.example.lookinapp.api.PredictionResponse
+import com.example.lookinapp.screen.pref.LoadingAnimation
 import com.example.lookinapp.screen.pref.PreferencesHelper
 import com.example.lookinapp.screen.pref.compressImage
 import com.example.lookinapp.ui.theme.BlueButton
@@ -57,7 +57,7 @@ fun Home() {
     var isRefreshing by remember { mutableStateOf(false) }
     var selectedImageUri by rememberSaveable { mutableStateOf<Uri?>(null) }
     var bottomSheetVisible by remember { mutableStateOf(false) }
-    var isLoading by remember { mutableStateOf(false) } // Loading state
+    var isLoading by remember { mutableStateOf(false) }
     val photoUri = remember { mutableStateOf<Uri?>(null) }
     val context = LocalContext.current
 
@@ -163,7 +163,7 @@ fun Home() {
                     }
 
                     override fun onFailure(call: Call<PredictionResponse>, t: Throwable) {
-                        isLoading = false // Stop loading
+                        isLoading = false
                         Toast.makeText(context, "Failed to get prediction: ${t.message}", Toast.LENGTH_SHORT).show()
                     }
                 })
@@ -274,7 +274,7 @@ fun Home() {
                             containerColor = BlueButton,
                             contentColor = Color.White
                         ),
-                        enabled = !isLoading // Disable button while loading
+                        enabled = !isLoading
                     ) {
                         Text(
                             text = "Scan My Face",

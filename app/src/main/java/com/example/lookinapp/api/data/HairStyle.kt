@@ -1,13 +1,14 @@
-package com.example.lookinapp
+package com.example.lookinapp.api.data
 
 import android.content.Context
+import com.example.lookinapp.R
 import com.google.gson.Gson
 import java.io.InputStreamReader
 
 data class HairStyle(
     val faceShape: String,
     val gender: String,
-    val image: Map<String, String>,
+    val images: Map<String, String>,
     val nameHairStyle: Map<String, String>
 )
 

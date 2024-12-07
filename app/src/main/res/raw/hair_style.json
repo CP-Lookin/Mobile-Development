@@ -3,89 +3,86 @@
     {
       "faceShape": "Oval",
       "gender": "Female",
-      "image": {
+      "images": {
         "imageSatu": "https://content.latest-hairstyles.com/wp-content/uploads/short-bob-haircut-for-an-oval-faces.jpg",
         "imageDua": "https://i.pinimg.com/originals/c9/35/2a/c9352a8cacbae4acadfab05233570309.jpg",
         "imageTiga": "https://i.pinimg.com/736x/8d/a1/cf/8da1cf4f3381b7e6b465912c662a0c3b.jpg"
       },
       "nameHairStyle": {
-        "hairsatu": "Sleek bob Hair Style",
-        "hairdua": "Long Layered Hair Style",
-        "hairtiga": "Wavy bob Hair Style"
+        "hairsatu": "Sleek bob",
+        "hairdua": "Long Layered",
+        "hairtiga": "Wavy bob"
       }
     },
     {
       "faceShape": "Oval",
       "gender": "Male",
-      "image": {
-        "imageSatu": "R.drawable.image_1",
-        "imageDua": "image2.jpg",
-        "imageTiga": "https://tailoringinhindi.com/wp-content/uploads/2023/02/Military-Haircut-for-Oval-Face.jpg"
+      "images": {
+        "imageSatu": "https://cdn.shopify.com/s/files/1/1038/1798/files/2._Textured_Buzz_Cut_Best_Haircuts_For_Men_With_Oval_Face.png?v=1722250327",
+        "imageDua": "https://cdn.shopify.com/s/files/1/1038/1798/files/16._Long_Curly_Hair_Best_Haircuts_For_Men_With_Oval_Face.png?v=1722250328",
+        "imageTiga": "https://cdn.shopify.com/s/files/1/1038/1798/files/3._Messy_Waves_Best_Haircuts_For_Men_With_Oval_Face.png?v=1722250327"
       },
       "nameHairStyle": {
-        "hairsatu": "Hallo",
-        "hairdua": "hallo",
-        "hairtiga": "hallo"
+        "hairsatu": "Textured Buzz Cut",
+        "hairdua": "Long Curly Hair",
+        "hairtiga": "Messy Waves"
       }
     },
 
     {
       "faceShape": "Round",
       "gender": "Female",
-      "image": {
-        "imageSatu": "R.drawable.image_1",
-        "imageDua": "image2.jpg",
-        "imageTiga": "https://tailoringinhindi.com/wp-content/uploads/2023/02/Military-Haircut-for-Oval-Face.jpg"
+      "images": {
+        "imageSatu": "https://www.thetrendspotter.net/wp-content/uploads/2022/07/Curtain-Bangs-Round-Face.jpg",
+        "imageDua": "https://www.thetrendspotter.net/wp-content/uploads/2022/07/Wispy-Bangs-Round-Face.jpg",
+        "imageTiga": "https://www.fabmood.com/wp-content/uploads/2024/07/hairstyles-round-faces-1.jpg"
       },
       "nameHairStyle": {
-        "hairsatu": "Hallo",
-        "hairdua": "hallo",
-        "hairtiga": "hallo"
+        "hairsatu": "Curtain Bangs",
+        "hairdua": "Wispy Bangs",
+        "hairtiga": "Long Layers with Straight Bangs"
       }
     },
     {
       "faceShape": "Round",
-      "gender": "Female",
-      "image": {
-        "imageSatu": "R.drawable.image_1",
-        "imageDua": "image2.jpg",
-        "imageTiga": "https://tailoringinhindi.com/wp-content/uploads/2023/02/Military-Haircut-for-Oval-Face.jpg"
+      "gender": "Male",
+      "images": {
+        "imageSatu": "https://www.fabmood.com/wp-content/uploads/2024/08/41758252.jpg",
+        "imageDua": "https://www.fabmood.com/wp-content/uploads/2024/08/58677778.jpg",
+        "imageTiga": "https://www.fabmood.com/wp-content/uploads/2024/08/47152825.jpg"
       },
       "nameHairStyle": {
-        "hairsatu": "Hallo",
-        "hairdua": "hallo",
-        "hairtiga": "hallo"
+        "hairsatu": "Medium Haircut with Side Part",
+        "hairdua": "Caramel Blonde Relaxed Layered Haircut",
+        "hairtiga": "Sandy Blonde Soft Shag Haircut"
       }
     },
-
-
     {
       "faceShape": "Square",
       "gender": "Female",
-      "image": {
-        "imageSatu": "R.drawable.image_1",
-        "imageDua": "image2.jpg",
-        "imageTiga": "https://tailoringinhindi.com/wp-content/uploads/2023/02/Military-Haircut-for-Oval-Face.jpg"
+      "images": {
+        "imageSatu": "https://www.fabmood.com/wp-content/uploads/2024/04/butterfly-haircut-1.jpg",
+        "imageDua": "https://www.fabmood.com/wp-content/uploads/2024/04/butterfly-haircut-9.jpg",
+        "imageTiga": "https://www.fabmood.com/wp-content/uploads/2024/04/butterfly-haircut-11.jpg"
       },
       "nameHairStyle": {
-        "hairsatu": "Hallo",
-        "hairdua": "hallo",
-        "hairtiga": "hallo"
+        "hairsatu": "80s Chic Layered Haircut",
+        "hairdua": "Textured Tresses",
+        "hairtiga": "Boho Beauty"
       }
     },
-
     {
       "faceShape": "Square",
       "gender": "Male",
-      "image": {
-        "imageSatu": "R.drawable.image_1",
-        "imageDua": "image2.jpg",
-        "imageTiga": "https://tailoringinhindi.com/wp-content/uploads/2023/02/Military-Haircut-for-Oval-Face.jpg"
+      "images": {
+        "imageSatu": "https://haircutinspiration.com/wp-content/uploads/Chris-Evans-buzz-cut-e1538974047133-750x1162.jpg",
+        "imageDua": "https://haircutinspiration.com/wp-content/uploads/Caved-Top-with-Tapered-Sides-750x1098.jpg",
+        "imageTiga": "https://haircutinspiration.com/wp-content/uploads/2023/01/haircuts-for-guys-with-square-faces-curly-fringe-750x1079.jpg"
       },
       "nameHairStyle": {
-        "hairsatu": "Hallo",
-        "hairdua": "hallo",
-        "hairtiga": "hallo"
+        "hairsatu": "Buzz Cut",
+        "hairdua": "Caved Top with Tapered Sides",
+        "hairtiga": "Curly Fringe"
       }
     }
   ]

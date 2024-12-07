@@ -22,6 +22,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.rememberImagePainter
+import com.example.lookinapp.api.data.getHairStyleData
 import com.example.lookinapp.screen.pref.PreferencesHelper
 import com.example.lookinapp.ui.theme.BlueButton
 import com.example.lookinapp.ui.theme.LookinAppTheme
@@ -144,7 +145,7 @@ fun ShowImage(imageUri: Uri?, faceShape: String?, gender: String?) {
                                 it.faceShape.equals(faceShape, ignoreCase = true) && it.gender.equals(gender, ignoreCase = true)
                             }
                             filteredData?.let { hairStyleData ->
-                                val images = hairStyleData.image.values.toList()
+                                val images = hairStyleData.images.values.toList()
                                 val text = hairStyleData.nameHairStyle.values.toList()
 
                                 val intent = Intent(context, HairStyleActivity::class.java)
@@ -163,7 +164,7 @@ fun ShowImage(imageUri: Uri?, faceShape: String?, gender: String?) {
                                 it.faceShape.equals(faceShape, ignoreCase = true) && it.gender.equals(gender, ignoreCase = true)
                             }
                             filteredData?.let { hairStyleData ->
-                                val images = hairStyleData.image.values.toList()
+                                val images = hairStyleData.images.values.toList()
                                 val text = hairStyleData.nameHairStyle.values.toList()
 
                                 val intent = Intent(context, HairStyleActivity::class.java)
@@ -174,15 +175,15 @@ fun ShowImage(imageUri: Uri?, faceShape: String?, gender: String?) {
                             }
                         }
 
-                        // Recomendasi Shape HairStyle
-                        else if (faceShape == "Shape" && (gender == "Female" || gender == "Male")) {
+                        // Recomendasi Squaare HairStyle
+                        else if (faceShape == "Square" && (gender == "Female" || gender == "Male")) {
                             // Proses untuk Shape face shape
                             val hairStyleDataList = getHairStyleData(context)
                             val filteredData = hairStyleDataList?.firstOrNull {
                                 it.faceShape.equals(faceShape, ignoreCase = true) && it.gender.equals(gender, ignoreCase = true)
                             }
                             filteredData?.let { hairStyleData ->
-                                val images = hairStyleData.image.values.toList()
+                                val images = hairStyleData.images.values.toList()
                                 val text = hairStyleData.nameHairStyle.values.toList()
 
                                 val intent = Intent(context, HairStyleActivity::class.java)

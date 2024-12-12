@@ -20,7 +20,55 @@
 ### 2. Jetpack Compose ###
 ### 2. Retrofit API Integrate ###
 
-![image](https://github.com/nyoman-purbawa/image_link_lookin/blob/92127fa207c868f14d31834ed1be2fa72678c08e/LookinApp.mp4)
+[LookinApp](https://www.youtube.com/watch?v=r9YuWbuzF04)
+
+Git Clone:
+```
+git clone https://github.com/CP-Lookin/Mobile-Development.git
+```
+
+Change Directory :
+```
+cd Mobile-Development
+```
+
+Uses Permission :
+```
+<uses-permission android:name="android.permission.CAMERA"/>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+<uses-permission android:name="android.permission.INTERNET" />
+```
+
+
+
+
+Build Gradle Import:
+```
+    implementation(libs.androidx.core.splashscreen)
+    implementation (libs.ui)
+
+    implementation ("androidx.navigation:navigation-compose:2.6.0")
+    implementation("io.coil-kt:coil-compose:2.0.0-alpha05")
+
+    implementation ("androidx.compose.ui:ui:1.5.0" )
+    implementation ("androidx.compose.material3:material3:1.1.0" )
+    implementation ("io.coil-kt:coil-compose:2.4.0")
+
+    implementation ("androidx.compose.material3:material3:1.0.0-alpha01")
+
+    implementation ("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
+    implementation ("androidx.compose.material:material-icons-extended:1.5.1")
+
+    implementation ("com.google.accompanist:accompanist-swiperefresh:0.30.1")
+
+    implementation ("androidx.appcompat:appcompat:1.7.0")
+
+    implementation ("com.squareup.retrofit2:retrofit:2.11.0")
+    implementation ("com.squareup.retrofit2:converter-gson:2.11.0")
+    implementation ("com.squareup.okhttp3:okhttp:4.11.0")
+
+```
 
 
 

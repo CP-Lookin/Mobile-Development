@@ -56,7 +56,7 @@ fun ShowImage(imageUri: Uri?, faceShape: String?, gender: String?) {
 
     // Variable Untuk Theme
     val isDarkMode = remember { PreferencesHelper.getDarkModeState(context) }
-    val textColor = if (isDarkMode) Color.White else Color(0xFF474444)
+    val textColor = if (isDarkMode) Color.White else Color(0xFF000000)
 
     imageUri?.let {
         Box(

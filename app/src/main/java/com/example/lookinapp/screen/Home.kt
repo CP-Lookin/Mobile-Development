@@ -219,7 +219,7 @@ fun Home() {
             Box(
                 modifier = Modifier
                     .fillMaxSize()
-                    .padding(40.dp),
+                    .padding(50.dp),
                 contentAlignment = Alignment.Center
             ) {
                 Column(

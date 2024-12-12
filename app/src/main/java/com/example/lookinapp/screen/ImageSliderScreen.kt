@@ -30,7 +30,7 @@ fun ImageSliderScreen(imagesList: List<String>, textList: List<String>) {
     val context = LocalContext.current
 
     val isDarkMode = remember { PreferencesHelper.getDarkModeState(context) }
-    val textColor = if (isDarkMode) Color.White else Color(0xFF474444)
+    val textColor = if (isDarkMode) Color.White else Color(0xFF000000)
 
     val pageCount = imagesList.size.coerceAtMost(textList.size)
 

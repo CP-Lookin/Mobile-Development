@@ -29,8 +29,8 @@
             android:authorities="${applicationId}.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
-
         </provider>
+
         <activity android:name=".ResultActivity">
 
         </activity>

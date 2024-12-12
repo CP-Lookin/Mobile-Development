@@ -1,10 +1,11 @@
 package com.example.lookinapp.api
 
+import com.example.lookinapp.BuildConfig
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 object ApiConfig {
-    private const val BASE_URL = "https://lookin-api-381918499623.asia-southeast2.run.app/"
+   private const val BASE_URL = BuildConfig.BASE_URL
 
     val apiService: ApiService by lazy {
         Retrofit.Builder()
